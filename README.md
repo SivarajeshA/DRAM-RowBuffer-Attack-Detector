@@ -6,3 +6,10 @@ we perform two other checks that involve finding similarity between L1 data cach
 and the last check is to find similarity in conflicting cores’ LLC misses. If any two or more cores pass all of the above
 three checks, we declare those cores as active attackers and for such detected cores we follow the closed-row policy where
 we return same latency for both, row hit and row miss. This way, the attack is mitigated.
+<br/>
+To build<br/>
+./build_champsim.sh bimodal no no no lru 4
+<br/>
+To run<br/>
+bash run_4core.sh bimodal-no-no-no-lru-4core 0 1 0 set_sender.trace.gz example1.trace.gz example2.trace.gz set_receiver.trace.gz
+<br/>
