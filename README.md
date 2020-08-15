@@ -1,0 +1,2 @@
+# DRAM-RowBuffer-Attack-Detector
+DRAM is a resource that is shared even in cloud-based environments where tenants typically do not share CPU or the caches. DRAM access latency depends on row buffer hits and conflicts, thereby opening the ground to carry out side-channel and covert-channel attacks on DRAM. In our project, we proposed a detection technique which detects such side and covert channel attacks on DRAM and mitigated it by using a hybrid open-closed row policy.
