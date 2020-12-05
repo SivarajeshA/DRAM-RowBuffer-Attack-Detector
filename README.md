@@ -9,9 +9,8 @@ we return same latency for both, row hit and row miss. This way, the attack is m
 <br/><br/>
 I have implemented this project over Champim.
 <br/>
-To build<br/>
+**To build**<br/>
 > ./build_champsim.sh bimodal no no no lru 4
 <br/>
-To run<br/>
+**To run**
 > bash run_4core.sh bimodal-no-no-no-lru-4core 0 1 0 set_sender.trace.gz example1.trace.gz example2.trace.gz set_receiver.trace.gz
-<br/>
